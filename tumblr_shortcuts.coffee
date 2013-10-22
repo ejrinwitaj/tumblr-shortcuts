@@ -11,7 +11,7 @@ if loc.indexOf('/dashboard') != -1
         'r':        -> tumblr.reblog tumblr.curPost()
         'v':        -> tumblr.view tumblr.curPost()
         'p':        -> tumblr.page tumblr.curPost()
-        'alt+r':    -> tumblr.reblog tumblr.curPost(), true
+        'h':        -> tumblr.reblog tumblr.curPost(), true
         'ctrl+enter:input': (e) -> tumblr.sendReply e.target
         'alt+right':    tumblr.nextPage
         'alt+left':     tumblr.prevPage
